@@ -1,8 +1,41 @@
  /* THIS is many line comment */
 body{
     width: 100%;
+    background-color: whitesmoke;
 }
-
+.head{
+    border: 1px none gray;
+}
+.dive{
+    width: 100%;
+    border: 1px solid white;
+    height: 50%;
+}
+.divtwo{
+    width: 25%;
+    border: 1px solid white;
+    float: left;
+}
+.link{
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    overflow: hidden; 
+}
+.arrow{
+   border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline;
+  padding: 5px;
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    float: right;
+    text-align: right;
+    height: 1px;
+}
 .who{
     width: 40px;
     float: right;
@@ -10,36 +43,71 @@ body{
 }
 .out{
     background-color:blue;
-    border-bottom: 15px;
+     border-bottom: 15px;
 }
-
-#link {
-    width: 70%;
-    border: 1px solid rgb(60, 60, 60);
+.limb{
     float: right;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    /* overflow: hidden; */
-}
-li{
-    float: right;
-}
-li a{
+.limb .been{
     color: black;
     /* text-align: right; */
     display: block;
     padding: 16px;
     text-decoration: none;
 }
-li a:hover{
+.limb .been:hover{
     border-bottom: 1px solid red;
 }
-h1{
-    font-size: 20px;
-    border: 1px groove gray;
-    margin-bottom: 40px;
+.roar{
+    border: 1px solid #909090;
+     display: flex; 
+      padding: 1.5rem ;  
+}
+.my{
+   padding: 1.5rem 2.5rem;
+   border-left: 1px solid #909090;
+   border-right: 1px solid #909090;
+   display: flex;  
+   letter-spacing: 1px; 
+
+}
+.whose{
+    border: 1px solid white;
+    padding: 16px;
+    text-align:center;
+    padding: 5rem;
+}
+ul{
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    overflow: hidden; 
+}
+li{
+    float: left;
+    color: black;
+    /* text-align: right; */
+    display: block;
+    padding: 16px;
+    text-decoration: none;   
+}
+#bill{
+   padding-left: 30px;
+}
+.long{
+    padding-left: 500px;
+    /* padding:  */
+}
+.like{
+    border-bottom: 1px solid white;
+    float:right;
+    /* text-align: center; */
+}
+.top{
+    color: rgb(6, 6, 211);
+}
+.blue{  
+     border-left: 60px;
+      border-radius: 70px;
 }
